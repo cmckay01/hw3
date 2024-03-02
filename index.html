@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Babbling Brook and Rainfall Sound</title>
+    <style>
+        /* Add some space below the buttons */
+        #buttonsContainer {
+            margin-bottom: 20px; /* Adjust the space as needed */
+        }
+    </style>
 </head>
 <body>
     <h2>Click to generate sounds</h2>
-    <button id="startBrook">Start Babbling Brook</button>
-    <button id="startRain">Start Rainfall</button>
+    <div id="buttonsContainer">
+        <button id="startBrook">Start Babbling Brook</button>
+        <button id="startRain">Start Rainfall</button>
+    </div>
+
+    <!-- Embed the PDF document here -->
+    <div id="pdfDocument">
+        <embed src="ciaran-blog.pdf" width="800" height="800" type="application/pdf">
+    </div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
